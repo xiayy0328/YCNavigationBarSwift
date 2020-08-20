@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YCNavigationBarSwift_Example' do
+  pod 'YCNavigationBarSwift', :path => '../'
+
+  target 'YCNavigationBarSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

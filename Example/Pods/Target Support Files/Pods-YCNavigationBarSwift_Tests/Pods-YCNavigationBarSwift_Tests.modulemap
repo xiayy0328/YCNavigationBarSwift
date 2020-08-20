@@ -1,0 +1,6 @@
+framework module Pods_YCNavigationBarSwift_Tests {
+  umbrella header "Pods-YCNavigationBarSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

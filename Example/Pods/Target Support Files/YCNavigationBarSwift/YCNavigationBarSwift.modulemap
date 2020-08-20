@@ -1,0 +1,6 @@
+framework module YCNavigationBarSwift {
+  umbrella header "YCNavigationBarSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
