@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YCNavigationBarSwift'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = '自定义导航栏，优雅处理不同导航栏切换'
 
 # This description is used to generate tags and improve search results.
