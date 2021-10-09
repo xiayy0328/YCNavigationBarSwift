@@ -35,12 +35,6 @@ class HideViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
-        yc_barStyle = .black
-        yc_barAlpha = 0
-        yc_barTintColor = .clear
-        yc_barTitleColor = .clear
-        
         contentView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: 260)
         view.addSubview(contentView)
         view.backgroundColor = UIColor.white
@@ -64,4 +58,15 @@ class HideViewController: UIViewController {
     }
     */
 
+}
+
+extension HideViewController {
+    
+    override var yc_navigationBarBackgroundColor: UIColor? {
+        return UIColor.clear
+    }
+    
+    override var yc_tintColor: UIColor? {
+        return UIColor.clear
+    }
 }
